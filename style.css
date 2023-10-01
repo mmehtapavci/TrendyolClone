@@ -194,7 +194,7 @@ table.center {
     left: 63px;
     top: 10px;
     margin: 9px;
-    padding: 15px;
+    padding: 16px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .arrowone{
@@ -224,6 +224,12 @@ table.center {
 .arrowtwo:hover{
     color: white;
     background-color: rgb(209, 140, 12);
+}
+.caption{
+    height: 3.5rem;
+    font-size: 14px;
+    position: relative;
+    top: 19px;
 }
 
 /***** SLİDER3 *******/
