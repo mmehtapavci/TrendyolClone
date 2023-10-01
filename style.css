@@ -117,9 +117,11 @@
 }
 .carousel-control-prev{
     width: 8%;
+    
 }
 .carousel-control-next{
     width: 50px;
+   
 }
 .ay{
     font-size: 30px;
@@ -165,8 +167,15 @@ table.center {
 }
 
 /* --------Best Selling Products Slider 2---------- */
+.bestselling{
+    position: absolute;
+    left: 20px;
+    top:5px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #slider2{
-    width:100% ;
+    width:90% ;
     height:350px ;
     margin: auto;
     border: 2px solid rgb(223, 216, 216);
@@ -181,27 +190,31 @@ table.center {
     height:250px ;
     border: 2px solid rgb(221, 212, 212);
     display: inline-block;
-    margin:15px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    margin: 8px;
+    padding: 17px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .arrowone{
     font-size:25px ;
     color: rgb(15, 13, 13);
-    margin-right: 85px;
+    margin-right: 45px;
     border: 1px solid rgb(243, 242, 242);
     border-radius: 50%;
     background-color:white;
-    z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.1) 0px -3px 5px;
+
 }
 .arrowone:hover{
     color: white;
     background-color: rgb(233, 156, 13);
 }
 .arrowtwo{
-    font-size:25px ;
+    font-size:26px ;
     color: rgb(0, 0, 0);
-    margin-left: 55px;
+    margin-left: 15px;
     border: 1px solid rgb(219, 215, 215);
     border-radius: 50%;
     background-color:white;
@@ -215,7 +228,7 @@ table.center {
 
 /***** SLİDER3 *******/
 #slider3{
-    width:100% ;
+    width:90% ;
     height:330px ;
     margin: auto;
     border: 2px solid rgb(223, 216, 216);
