@@ -182,21 +182,21 @@ table.center {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .boxx{
-    width:16% ;
-    height:230px ;
+    width:17% ;
+    height:250px ;
     border: 2px solid rgb(221, 212, 212);
     display: inline-block;
     position: relative;
-    left: 63px;
+    left: 30px;
     top: 10px;
     margin: 9px;
-    padding: 16px;
+    padding: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .arrowone{
     font-size:25px ;
     color: rgb(15, 13, 13);
-    margin-right: 15px;
+    margin-right: 45px;
     border: 1px solid rgb(243, 242, 242);
     border-radius: 50%;
     background-color:white;
@@ -209,7 +209,7 @@ table.center {
 .arrowtwo{
     font-size:26px ;
     color: rgb(0, 0, 0);
-    margin-left: -15px;
+    margin-left: 15px;
     border: 1px solid rgb(219, 215, 215);
     border-radius: 50%;
     background-color:white;
@@ -219,12 +219,48 @@ table.center {
     color: white;
     background-color: rgb(209, 140, 12);
 }
-.caption{
-    height: 35px;
-    font-size: 14px;
-    position: relative;
-    top: 19px;
+.boxx a .caption{
+    width: 120%;
+    right: 15px;
 }
+.boxx a{
+    color: initial !important;
+}
+.caption{
+    height: 22%;
+    width: 100%;
+    font-size: 13px;
+    position: relative;
+    top: 23px;
+}
+.price{
+    height: 15%;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    bottom: 2px;
+    right: 13px;
+    color: #f68428;
+    font-weight: 500;
+    /* background-color: blueviolet; */
+}
+/* Resimlerin üzerine gelindiğinde büyüme efekti */
+.boxx a:hover .product {
+    transform: scale(1.1); /* Resmin %10 daha büyük olmasını sağlar, isteğinize göre ayarlayabilirsiniz */
+    transition: transform 0.7s ease; /* Geçiş süresini 0.5 saniyeye çıkardık, isteğinize göre daha fazla artırabilirsiniz */
+}
+.overlay-image {
+    position: absolute; /* Mutlak konumlandırma kullanın */
+    top: 0px; /* Üst kenara hizalama */
+    left: 0px; /* Sol kenara hizalama */
+    width: 50px; /* Genişlik ayarlayın */
+    height: 50px; /* Yükseklik ayarlayın */
+    z-index: 1; /* Görünürlük düzenlemesi için z-index ekleyin */
+    /* İstediğiniz diğer stil özelliklerini ekleyebilirsiniz */
+}
+
+
+
 
 /***** SLİDER3 *******/
 #slider3{
