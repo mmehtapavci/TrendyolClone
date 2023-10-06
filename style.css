@@ -383,3 +383,46 @@ table.center {
 .grayline{
     font-size: smaller;
 }
+
+/* Arama kutusu stilleri */
+#aramaKutusu {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+/* Açılır kutu stil */
+.searchbox-opening-links {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 70px; 
+    left: 320px;
+    right: 0;
+    display: none;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+#buyutec {
+    cursor: pointer;
+}
+/* Arama kutusu stilleri */
+
+#aramaKutusu {
+    width:100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 5px; /* Kutu içeriğini yükseltmek için iç padding ekleniyor */
+    box-sizing: border-box;
+    
+}
+/* Searh kutusundaki lategoriler */
+.category a {
+    text-decoration: none; /* Çizgiyi kaldırma */
+    color: rgb(214, 110, 13); 
+    font-size: small;
+    font-weight: 000;
+}

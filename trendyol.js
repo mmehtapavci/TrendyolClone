@@ -14,23 +14,24 @@ function topFunction() {
 }
 window.onscroll = function () { scrollFunction() };
 
+// search
 
-// Search Kutusu Açılması
-document.addEventListener("DOMContentLoaded", function () {
-    var acKutu = document.getElementById("acKutu");
-    var altKutu = document.getElementById("altKutu");
+var acKutu = document.getElementById("acKutu");
+var altKutu = document.getElementById("altKutu");
+var buyutec = document.getElementById("buyutec");
 
-    if (acKutu && altKutu) {
-        acKutu.addEventListener("click", function (e) {
-            e.preventDefault();
-
-            if (altKutu.style.display === "none" || altKutu.style.display === "") {
-                altKutu.style.display = "block";
-            } else {
-                altKutu.style.display = "none";
-            }
-        });
-    } else {
-        console.error("acKutu veya altKutu bulunamadı.");
-    }
+buyutec.addEventListener("click", function (e) {
+    e.stopPropagation(); // Arama kutusuna tıklama olayını durdur
+    altKutu.style.display = "block";
 });
+
+document.addEventListener("click", function () {
+    altKutu.style.display = "none";
+});
+
+acKutu.addEventListener("click", function (e) {
+    e.stopPropagation(); // Arama kutusuna tıklama olayını durdur
+});
+
+
+
