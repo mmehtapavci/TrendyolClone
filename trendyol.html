@@ -47,22 +47,31 @@
                         <img src="img/Trendyol_logo.svg.png" alt="" width="135">
                     </a>
                 </div>
+
                 <div class="col-7">
                     <div class="searchmain m-2">
                         <input type="text" class="input mt-2" maxlength="50"
-                            placeholder="Aradığınız ürün,kategori veya markayı yazınız">
-                        <a href="">
+                            placeholder="Aradığınız ürün, kategori veya markayı yazınız" id="aramaKutusu">
+                        <a href="#" id="acKutu">
                             <i class="fas fa-search"></i>
                         </a>
                     </div>
                 </div>
+                <div id="altKutu" style="display:none;">
+                    <ul>
+                        <li>Öğe 1</li>
+                        <li>Öğe 2</li>
+                        <li>Öğe 3</li>
+                    </ul>
+                </div>
+
                 <div class="col-3">
                     <div class="boxone">
                         <div class="boxtwo d-flex mt-3 ">
                             <a href="">
                                 <img src="img/456283.png" alt="" width="14">
                                 <a href="">
-                                    <p class="myaccount ">Hesabım</p>
+                                    <p class="myaccount">Hesabım</p>
                                 </a>
                             </a>
                         </div>
@@ -1019,36 +1028,41 @@
                     <div class="boxx">
                         <a href="">
                             <img class="product w-100 h-100 " src="img/story3/selling26.png" alt="">
-                            <div class="caption"> <strong>R&S </strong>Roll-on Deodorant</div>
+                            <div class="caption"> <strong>Trendyol Collection </strong>Abajür</div>
                             <img class="overlay-image" src="img/EnCokSatan.png" alt="Üzerine eklenen resim">
+                            <div class="price">899.99 TL</div>
                         </a>
                     </div>
                     <div class="boxx">
                         <a href="">
                             <img class="product w-100 h-100 " src="img/story3/selling27.png" alt="">
-                            <div class="caption"> <strong>R&S </strong>Roll-on Deodorant</div>
+                            <div class="caption"> <strong>Ferruci </strong>Kol Saati</div>
                             <img class="overlay-image" src="img/EnCokSatan.png" alt="Üzerine eklenen resim">
+                            <div class="price">1999.99 TL</div>
                         </a>
                     </div>
                     <div class="boxx">
                         <a href="">
                             <img class="product w-100 h-100 " src="img/story3/selling28.png" alt="">
-                            <div class="caption"> <strong>R&S </strong>Roll-on Deodorant</div>
+                            <div class="caption"> <strong>Karaca </strong>Yatak Örtüsü</div>
                             <img class="overlay-image" src="img/EnCokSatan.png" alt="Üzerine eklenen resim">
+                            <div class="price">899.99 TL</div>
                         </a>
                     </div>
                     <div class="boxx">
                         <a href="">
                             <img class="product w-100 h-100 " src="img/story3/selling29.png" alt="">
-                            <div class="caption"> <strong>R&S </strong>Roll-on Deodorant</div>
+                            <div class="caption"> <strong>La-Roche-Posay </strong>Vucut Kremi</div>
                             <img class="overlay-image" src="img/EnCokSatan.png" alt="Üzerine eklenen resim">
+                            <div class="price">199.99 TL</div>
                         </a>
                     </div>
                     <div class="boxx">
                         <a href="">
                             <img class="product w-100 h-100 " src="img/story3/selling30.png" alt="">
-                            <div class="caption"> <strong>R&S </strong>Roll-on Deodorant</div>
+                            <div class="caption"> <strong>Apple </strong>İ-phone13</div>
                             <img class="overlay-image" src="img/EnCokSatan.png" alt="Üzerine eklenen resim">
+                            <div class="price">14.000.00 TL</div>
                         </a>
                     </div>
                 </div>
@@ -1714,5 +1728,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <script src="trendyol.js"></script>
 
 </html>
