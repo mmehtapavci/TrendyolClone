@@ -30,10 +30,14 @@
     height:39px ;
     background-color:   #f3f3f3;
     border-radius: 6px;
+    border: 2px solid transparent; /* Başlangıçta border yok */
+    transition: border-color 0.3s; /* Border renginin geçiş efekti */
+    cursor: pointer;
 }
-.searchmain:hover{
+/* .searchmain:hover{
     border: 2px solid orange;
-}
+} */
+
 .fas{
     color: rgb(240, 161, 15);
     margin: 11px;
@@ -403,26 +407,65 @@ table.center {
     width: 40%;
     border-radius: 5px;
     z-index: 999;
+    height: auto;
 }
 
 #buyutec {
     cursor: pointer;
 }
 /* Arama kutusu stilleri */
-
 #aramaKutusu {
-    width:100%;
+    width: 100%;
     height: 25px;
     border: none;
     outline: none;
-    padding: 5px; /* Kutu içeriğini yükseltmek için iç padding ekleniyor */
+    padding: 5px;
     box-sizing: border-box;
-    
 }
+
+.searchbox-opening-links {
+    border: 2px solid orange;
+}
+
 /* Searh kutusundaki lategoriler */
 .category a {
     text-decoration: none; /* Çizgiyi kaldırma */
-    color: rgb(214, 110, 13); 
+    color: orange; 
     font-size: small;
     font-weight: 000;
 }
+.GelismisAramalar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gecmis-aramalar {
+    color: orange;
+}
+.temizle {
+    color: black; 
+}
+/* Tüm arama linklerini siyah yap */
+
+.arama-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 5px; /* Satırlar arası boşluk eklemek için */
+}
+/* Arama listesini sınırlar */
+.aramalar-listesi a {
+    margin-top: 10px;
+    color: black;
+    margin-left: 5px;
+}
+.siyah-arama {
+    border-bottom: 1px solid rgba(216, 214, 214, 0.336);
+    margin-bottom: 4px; 
+    display: inline-block; /* Öğenin sonuna kadar uzatır */
+    width: 100%; /* Öğeyi yatay olarak genişletir */
+    box-sizing: border-box; /* Borderi öğenin içine dahil eder */
+    
+}
+
+

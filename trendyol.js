@@ -14,7 +14,7 @@ function topFunction() {
 }
 window.onscroll = function () { scrollFunction() };
 
-// search
+// search kutusu açılımı
 
 var acKutu = document.getElementById("acKutu");
 var altKutu = document.getElementById("altKutu");
@@ -32,6 +32,7 @@ document.addEventListener("click", function () {
 acKutu.addEventListener("click", function (e) {
     e.stopPropagation(); // Arama kutusuna tıklama olayını durdur
 });
+
 
 
 
