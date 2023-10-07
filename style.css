@@ -437,9 +437,12 @@ table.center {
 .GelismisAramalar {
     display: flex;
     justify-content: space-between;
+    font-weight: 700;
+    margin-top: 4px;
 }
 .GelismisAramalar3 {
-    margin-top: 20px; /* İstediğiniz boşluğu ayarlayabilirsiniz */
+    margin-top: 20px; 
+    font-weight: 700;/* İstediğiniz boşluğu ayarlayabilirsiniz */
 }
 
 
@@ -478,12 +481,12 @@ table.center {
 
 .arama-listesi-yatay .arama-elemani {
     display: inline-block;
-    margin-right: 6px;
+    margin-right: 7px;
     color: black;
     background-color: #ffffff;
     padding: 6px;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 13px;
 }
 .arama-listesi-yatay .arama-elemani:hover{
     border: 1px solid orange;
