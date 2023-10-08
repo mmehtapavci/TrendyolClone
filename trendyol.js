@@ -14,24 +14,26 @@ function topFunction() {
 }
 window.onscroll = function () { scrollFunction() };
 
-// search kutusu açılımı
-
+// buyutec veya inputAlan'a tıklandığında altKutu açılsın
 var acKutu = document.getElementById("acKutu");
 var altKutu = document.getElementById("altKutu");
 var buyutec = document.getElementById("buyutec");
+var aramaKutusu = document.getElementById("aramaKutusu");
+
 
 buyutec.addEventListener("click", function (e) {
-    e.stopPropagation(); // Arama kutusuna tıklama olayını durdur
+    e.stopPropagation();
     altKutu.style.display = "block";
 });
 
+aramaKutusu.addEventListener("click", function (e) {
+    e.stopPropagation();
+    altKutu.style.display = "block";
+});
+
+// Herhangi bir yere tıklandığında altKutu kapanır.
 document.addEventListener("click", function () {
     altKutu.style.display = "none";
 });
-
-acKutu.addEventListener("click", function (e) {
-    e.stopPropagation(); // Arama kutusuna tıklama olayını durdur
-});
-
-
+// --------------------------------------
 
