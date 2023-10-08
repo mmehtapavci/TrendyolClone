@@ -422,11 +422,9 @@ table.center {
     padding: 5px;
     box-sizing: border-box;
 }
-
 .searchbox-opening-links {
     border: 2px solid orange;
 }
-
 /* Searh kutusundaki lategoriler */
 .category a {
     text-decoration: none; /* Çizgiyi kaldırma */
@@ -474,27 +472,38 @@ table.center {
     box-sizing: border-box; /* Borderi öğenin içine dahil eder */
 }
 .arama-link:hover{
-    background-color: #fdfdfdb2;
+    background-color: #fdfdfd17;
     border-radius: 3px;
 
 }
 
 .arama-listesi-yatay .arama-elemani {
     display: inline-block;
-    margin-right: 7px;
+    margin-right: 5px;
     color: black;
     background-color: #ffffff;
     padding: 6px;
     border-radius: 4px;
     font-size: 13px;
+    border: 1px solid #9b9b9b42;
 }
 .arama-listesi-yatay .arama-elemani:hover{
     border: 1px solid orange;
     color: #f68428;
 }
+.alt0{
+    position: relative;
+    top: 5px;
+    
+}
 .alt{
     position: relative;
+    top: 5px;
+}
+.alt .arama-elemani{
+    position: relative;
     top: 4px;
+    margin-bottom: 12px;
 }
 
 .arama-listesi-yatay .arama-elemani .siyah-yazi::after {
