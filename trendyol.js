@@ -32,8 +32,3 @@ aramaKutusu.addEventListener("click", function (e) {
 });
 
 // Herhangi bir yere tıklandığında altKutu kapanır.
-document.addEventListener("click", function () {
-    altKutu.style.display = "none";
-});
-// --------------------------------------
-
