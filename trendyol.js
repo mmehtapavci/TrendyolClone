@@ -31,4 +31,12 @@ aramaKutusu.addEventListener("click", function (e) {
     altKutu.style.display = "block";
 });
 
-// Herhangi bir yere tıklandığında altKutu kapanır.
+function acListe() {
+    var liste = document.getElementById("liste");
+    liste.style.display = "block";
+}
+
+function kapatListe() {
+    var liste = document.getElementById("liste");
+    liste.style.display = "none";
+}
