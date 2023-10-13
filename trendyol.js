@@ -31,12 +31,35 @@ aramaKutusu.addEventListener("click", function (e) {
     altKutu.style.display = "block";
 });
 
+
+
+// Hesabım Sekmesine Gleindiğinde
+var hideTimeout;
+
 function acListe() {
     var liste = document.getElementById("liste");
     liste.style.display = "block";
 }
 
-function kapatListe() {
-    var liste = document.getElementById("liste");
-    liste.style.display = "none";
+function cancelHide() {
+    clearTimeout(hideTimeout);
 }
+
+function kapatListe() {
+    hideTimeout = setTimeout(function () {
+        var liste = document.getElementById("liste");
+        liste.style.display = "none";
+    }, 500); // Adjust the delay (in milliseconds) as needed
+}
+
+function kapatListeDelayed() {
+    hideTimeout = setTimeout(function () {
+        var liste = document.getElementById("liste");
+        liste.style.display = "none";
+    }, 500); // Adjust the delay (in milliseconds) as needed
+}
+
+
+
+
+

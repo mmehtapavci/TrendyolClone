@@ -516,19 +516,21 @@ table.center {
     bottom: 0;
     left: 0;
 }
+/* Hesabım Kısmı CSS */
 #container {
-    position: relative; /* Container'ı göreceli olarak pozisyonlandır */
+    position: relative;
 }
-
 #liste {
     height: auto;
-    width: auto;
-    background-color: #f68428;
+    width: 260%;
+    background-color: #e9e9e9;
     display: none;
-    position: absolute; 
-    top: 100%; /* Container'ın altında görünecek */
+    position: absolute;
+    top: 100%;
+    color: black;
+    right: -40px;
+    border-radius: 5px;
 }
-
 #container:hover #liste {
     display: block;
 }
