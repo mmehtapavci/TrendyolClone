@@ -534,3 +534,7 @@ table.center {
 #container:hover #liste {
     display: block;
 }
+#liste li {
+    padding: 5px;
+    font-size: small;
+}
