@@ -523,7 +523,7 @@ table.center {
 #liste {
     height: auto;
     width: 260%;
-    background-color: #e9e9e9;
+    background-color: white;
     display: none;
     position: absolute;
     top: 100%;
