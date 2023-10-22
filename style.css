@@ -534,13 +534,21 @@ table.center {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border: 1px solid transparent;
 }
-
 #container:hover #liste {
     display: block;
     border: none; 
 }
-
 #liste li {
     padding: 5px;
     font-size: small;
 }
+#username1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #f68428;
+    position: relative;
+    right: 13px;
+}
+

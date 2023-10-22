@@ -58,6 +58,8 @@ function kapatListeDelayed() {
         liste.style.display = "none";
     }, 500); // Adjust the delay (in milliseconds) as needed
 }
+// JavaScript to update the username for the first list item
+document.getElementById("username1").textContent = "Maşite Mehtap Avcı";
 
 
 
