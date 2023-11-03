@@ -552,3 +552,16 @@ table.center {
     right: 13px;
 }
 
+/* SEPET */#cart-content {
+    display: none;
+    background-color: #336699; /* Lacivert renk */
+    position: absolute;
+    top: 100%; /* "mybasket" öğesinin hemen altında */
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+.show-cart {
+    cursor: pointer; /* İmleci el işareti olarak değiştirir */
+}

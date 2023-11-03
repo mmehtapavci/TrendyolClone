@@ -63,5 +63,9 @@ document.getElementById("username1").textContent = "Maşite Mehtap Avcı";
 
 
 
-
-
+// Sepet
+$(function () {
+    $(".show-cart").click(function () {
+        $("#cart-content").toggle();
+    });
+});
