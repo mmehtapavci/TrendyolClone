@@ -516,11 +516,10 @@ table.center {
     bottom: 0;
     left: 0;
 }
-/* Hesabım Kısmı CSS */
+/* Hesabım Kısmı CSS **************************/
 #container {
     position: relative;
 }
-
 #liste {
     height: auto;
     width: 240%;
@@ -546,22 +545,10 @@ table.center {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    font-weight: 600;
-    color: #f68428;
+    font-weight: 500;
+    color: #683002;
     position: relative;
     right: 13px;
 }
 
-/* SEPET */#cart-content {
-    display: none;
-    background-color: #336699; /* Lacivert renk */
-    position: absolute;
-    top: 100%; /* "mybasket" öğesinin hemen altında */
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    color: white;
-}
-.show-cart {
-    cursor: pointer; /* İmleci el işareti olarak değiştirir */
-}
+/* SEPET */

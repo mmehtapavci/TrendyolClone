@@ -33,7 +33,7 @@ aramaKutusu.addEventListener("click", function (e) {
 
 
 
-// Hesabım Sekmesine Gleindiğinde
+// Hesabım Sekmesine Gelindiğinde
 var hideTimeout;
 
 function acListe() {
@@ -41,31 +41,29 @@ function acListe() {
     liste.style.display = "block";
 }
 
-function cancelHide() {
-    clearTimeout(hideTimeout);
-}
 
 function kapatListe() {
     hideTimeout = setTimeout(function () {
         var liste = document.getElementById("liste");
         liste.style.display = "none";
-    }, 500); // Adjust the delay (in milliseconds) as needed
+    },
+        500);
 }
+
+
+function cancelHide() {
+    clearTimeout(hideTimeout);
+}
+
 
 function kapatListeDelayed() {
     hideTimeout = setTimeout(function () {
         var liste = document.getElementById("liste");
         liste.style.display = "none";
-    }, 500); // Adjust the delay (in milliseconds) as needed
+    }, 500);
 }
 // JavaScript to update the username for the first list item
 document.getElementById("username1").textContent = "Maşite Mehtap Avcı";
 
 
 
-// Sepet
-$(function () {
-    $(".show-cart").click(function () {
-        $("#cart-content").toggle();
-    });
-});
