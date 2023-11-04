@@ -66,4 +66,15 @@ function kapatListeDelayed() {
 document.getElementById("username1").textContent = "Maşite Mehtap Avcı";
 
 
+// Sepet
+$(document).ready(function () {
+    $("#myaccount").hover(function () {
+        $("#liste2").stop().slideToggle(200);
+    });
 
+    $("#liste2").hover(function () {
+        $(this).stop();
+    }, function () {
+        $(this).stop().slideToggle(200);
+    });
+});
