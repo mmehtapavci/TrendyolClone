@@ -637,10 +637,13 @@ table.center {
     display: flex;
 }
 .womanbox{
-    background-color: aqua;
+    background-color: rgb(253, 232, 250);
     width: 30px;
     height: auto;
     flex: 1; /* Eşit genişlik sağlamak için flex özellikleri ayarla */
-        border: 1px solid #000; /* Sınırlar ekleyerek kutuları ayırt edebilirsiniz */
-        margin: 5px; 
+    border: 1px solid #000; /* Sınırlar ekleyerek kutuları ayırt edebilirsiniz */
+    margin: 5px; 
+}
+.newA{
+    color: #000;
 }
