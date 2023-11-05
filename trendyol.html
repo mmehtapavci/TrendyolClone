@@ -29,6 +29,7 @@
     <script src="/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+
     <!-- SCRİPT LİNK -->
     <script src="trendyol.js"></script>
 </head>
@@ -253,13 +254,14 @@
                                 </a>
                             </a>
                         </div>
+
                         <div class="boxtwo d-flex mt-3 ">
                             <a href="">
                                 <img src="img/basket.png" alt="" width="17">
                                 <a href="">
+
                                     <p id="myaccount" class="myaccount">Sepetim</p>
-
-
+                                    <!-- Açılacak olan liste -->
                                     <ul id="liste2" class="liste2">
                                         <div class="liste-sepetim">
                                             <p style="color: black;margin-top: 5px;">SEPETİM (2 Ürün) </p>
@@ -271,22 +273,21 @@
                                         </div>
                                         <hr style="color: gray;">
                                         <div class="liste-sepetim">
+
                                             <li class="product-item">
                                                 <img src="/img/sepettekiler/çanta.jpg" alt="" class="basket">
                                                 <p class="textbasket"><strong
                                                         style="color: black;">YOURHANDBAGS</strong> Taba Deri Çanta</p>
                                             </li>
+
                                         </div>
                                         <div class="btn-order mb-1">
                                             <button id="gotobasket">Sepete git</button>
                                             <button id="completeorder">Siparişi Tamamla</button>
-
+                                        </div>
                                     </ul>
                                 </a>
-
                             </a>
-
-
                         </div>
                     </div>
 
@@ -296,8 +297,31 @@
 
 
             <ul class="menu d-flex">
-                <li class="liname text-center  ">
-                    <a href="">KADIN</a>
+                <li class="liname text-center">
+                    <a id="woman" href="#">KADIN</a>
+                    <div class="content-box">
+                        <div class="womanbox">
+                            <a href="">Giyim</a>
+                            <p>İçerik 1</p>
+                            <p>İçerik 2</p>
+                        </div>
+                        <div class="womanbox">
+                            <a href="">Başka bir kutu</a>
+                            <p>İçerik 3</p>
+                            <p>İçerik 4</p>
+                        </div>
+                        <div class="womanbox">
+                            <a href="">Bir diğer kutu</a>
+                            <p>İçerik 5</p>
+                            <p>İçerik 6</p>
+                        </div>
+                        <div class="womanbox">
+                            <a href="">Son kutu</a>
+                            <p>İçerik 7</p>
+                            <p>İçerik 8</p>
+                        </div>
+                    </div>
+
                 </li>
                 <li class="liname">
                     <a href="">ERKEK</a>
@@ -1925,7 +1949,8 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>

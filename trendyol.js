@@ -55,7 +55,6 @@ function cancelHide() {
     clearTimeout(hideTimeout);
 }
 
-
 function kapatListeDelayed() {
     hideTimeout = setTimeout(function () {
         var liste = document.getElementById("liste");
@@ -66,7 +65,7 @@ function kapatListeDelayed() {
 document.getElementById("username1").textContent = "Maşite Mehtap Avcı";
 
 
-// Sepet
+// Sepet*****************
 $(document).ready(function () {
     $("#myaccount").hover(function () {
         $("#liste2").stop().slideToggle(200);
@@ -77,4 +76,28 @@ $(document).ready(function () {
     }, function () {
         $(this).stop().slideToggle(200);
     });
+});
+
+
+
+
+// Kadın**************
+$(document).ready(function () {
+    $("#woman").hover(
+        function () {
+            // Mouse üzerine gelindiğinde içerik kutusunu göster
+            $(".content-box").stop(true, true).slideDown();
+        }
+    );
+
+    $(".content-box").hover(
+        function () {
+            // İçerik kutusunun üzerindeyken kapatma işlemini iptal et
+            $(this).stop(true, true);
+        },
+        function () {
+            // İçerik kutusunun üzerinden çıkıldığında kapatma işlemi devam eder
+            $(this).slideUp();
+        }
+    );
 });

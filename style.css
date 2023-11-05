@@ -568,7 +568,6 @@ table.center {
 }
 
 .liste-sepetim {
-    
     list-style: none;
 }
 #myaccount img {
@@ -616,4 +615,32 @@ table.center {
     margin-top: 9px;
     margin-left: 10px;
     
+}
+/* WOMAN */
+.liname {
+    position: relative;
+}
+
+.content-box {
+    display: none;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    width: 66rem;
+    height: auto;
+    top: 100%; 
+    left: 0;
+    z-index: 1;
+    border-radius: 2px;
+    border: 1px solid #ccccccb4;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.womanbox{
+    background-color: aqua;
+    width: 30px;
+    height: auto;
+    flex: 1; /* Eşit genişlik sağlamak için flex özellikleri ayarla */
+        border: 1px solid #000; /* Sınırlar ekleyerek kutuları ayırt edebilirsiniz */
+        margin: 5px; 
 }
